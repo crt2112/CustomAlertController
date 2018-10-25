@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         alert.setValue(titleMutableString, forKey: "attributedTitle")
         
         // 2. メッセージのフォント/色/サイズを変更
-        let message = "test message \n テストメッセージ \n てすとめっせーじ \n aaaa"
+        let message = "test message \n テストメッセージ \n てすとめっせーじ "
         let messageMutableString = NSMutableAttributedString(string: message, attributes: [NSAttributedString.Key.font:UIFont(name: "Georgia", size: 24.0)!])
         
         // 色の変更
